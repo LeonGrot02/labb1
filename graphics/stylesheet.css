@@ -1,3 +1,51 @@
 body {
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
+
+
+body {
+    margin: 0px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+main {
+    width: 980px;
+    margin-left: auto;
+    margin-right :auto;
+}
+
+header {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+}
+
+.navButton  {
+    float: left;
+    background-color: white;
+    transition: background-color ease-in-out 0.3s, color ease-in-out 0.3s;
+}
+
+.navButton:hover {
+    background-color: black;
+    color: white;
+}
+
+table {
+    text-align: center;
+    border-spacing: 5px;
+}
+
+td {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
