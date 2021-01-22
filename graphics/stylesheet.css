@@ -1,17 +1,10 @@
 body {
-<<<<<<< HEAD
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-}
-
-
-body {
-=======
->>>>>>> master
     margin: 0px;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 main {
+    padding-top: 20px;
     width: 980px;
     margin-left: auto;
     margin-right :auto;
@@ -24,36 +17,6 @@ header {
 }
 
 nav {
-<<<<<<< HEAD
-    width: 100%;
-    background-color: white;
-}
-
-.navButton  {
-    float: left;
-    background-color: white;
-    transition: background-color ease-in-out 0.3s, color ease-in-out 0.3s;
-}
-
-.navButton:hover {
-    background-color: black;
-    color: white;
-}
-
-table {
-    text-align: center;
-    border-spacing: 5px;
-}
-
-td {
-    text-align: center;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid black;
-}
-=======
     display: flex;
     justify-content: center;
     align-content: center;
@@ -62,6 +25,11 @@ th, td {
 
 table {
     text-align: center;
+}
+
+img {
+    width: 450px;
+    height: 450px;
 }
 
 th, td {
@@ -88,9 +56,26 @@ td a:hover {
     background-color: black;
 }
 
+
+
 .navButton  {
     float: left;
     background-color: white;
 }
 
->>>>>>> master
+
+
+.maps {
+    
+
+}
+
+.sort {
+    
+
+}
+
+.object {
+    border: 2px solid black;
+}
+
