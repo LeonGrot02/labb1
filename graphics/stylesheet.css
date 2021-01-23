@@ -23,6 +23,10 @@ nav {
     background-color: white;
 }
 
+article {
+    max-width: 960px;
+}
+
 table {
     text-align: center;
 }
