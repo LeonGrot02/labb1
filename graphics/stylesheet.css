@@ -37,6 +37,19 @@ th, td {
     color: black;
 }
 
+a {
+    color: black;
+    text-decoration: dotted underline;
+    border: 5px solid white; 
+    transition: border ease-in-out 0.3s, background ease-in-out 0.3s, color ease-in-out 0.3s;
+}
+
+a:hover {
+    border: 5px solid black; 
+    background: black;
+    color: white;
+}
+
 /*Kod hämtad från https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml5_aside2 */
 aside {
     width: 39%;
@@ -69,7 +82,13 @@ td a:hover {
     background-color: black;
 }
 
-
+footer {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+    position: absolute;
+}
 
 .navButton  {
     float: left;
@@ -96,5 +115,25 @@ td a:hover {
     width: 60%;
     background-color: red;
     float: left;
+}
+
+.memberL {
+    float: left;
+    width: 20%;
+    height: 260px;
+    background: black;
+}
+
+.member {
+    float: left;
+    width: 20%;
+    height: 260px;
+    margin-left: 20%;
+    background: black;
+}
+
+.member img, .memberL img {
+    height: 196px;
+    width: 196px;
 }
 
