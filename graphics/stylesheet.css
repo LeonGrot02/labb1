@@ -117,8 +117,12 @@ footer {
     float: left;
 }
 
+.memberBox {
+    display: flex;
+    justify-content: space-between;
+}
+
 .memberL {
-    float: left;
     width: 20%;
     height: 260px;
     background: black;
@@ -126,7 +130,6 @@ footer {
 }
 
 .member {
-    float: left;
     width: 20%;
     height: 260px;
     margin-left: 20%;
