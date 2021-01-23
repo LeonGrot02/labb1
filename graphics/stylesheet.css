@@ -137,3 +137,17 @@ footer {
     width: 196px;
 }
 
+.overheadImg {
+    width: 80%;
+    height: 320px;
+    float: left;
+}
+
+.propertybox {
+    float: left;
+    border-color: black;
+}
+
+.pricebox {
+    border-color: black;
+}
