@@ -37,6 +37,19 @@ th, td {
     color: black;
 }
 
+/*Kod hämtad från https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml5_aside2 */
+aside {
+    width: 39%;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+    margin-left: 5px;
+}
+.ad {
+    width: 100%;
+
+}
+
 td a {
     color: black;
     text-decoration: none;
@@ -71,11 +84,17 @@ td a:hover {
 }
 
 .sort {
-    
+
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
 
 .object {
     border: 2px solid black;
+    width: 60%;
+    background-color: red;
+    float: left;
 }
 
