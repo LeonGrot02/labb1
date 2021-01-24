@@ -102,8 +102,7 @@ footer {
 
 
 .maps {
-    
-
+    /*eeeeehhhhhh, why empty?*/
 }
 
 .sort {
@@ -151,8 +150,8 @@ footer {
 }
 
 .member img {
-    height: 196px;
-    width: 196px;
+    height: 192px;
+    width: auto;
 }
 
 .overheadImg {
