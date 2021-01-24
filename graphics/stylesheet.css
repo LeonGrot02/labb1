@@ -51,7 +51,7 @@ a:hover {
 }
 
 /*Kod hämtad från https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml5_aside2 */
-aside {
+.cwaside {
     width: 39%;
     float: left;
     font-style: italic;
