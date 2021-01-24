@@ -137,13 +137,13 @@ footer {
     background: white;
 }
 
-.member p, .memberL p {
+.member p {
     font-size: 12px;
     margin-left: 8px;
 }
 
 .member img {
-    height: 192px;
+    height: 196px;
     width: auto;
 }
 
