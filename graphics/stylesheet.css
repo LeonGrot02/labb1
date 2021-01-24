@@ -145,9 +145,14 @@ footer {
 
 .propertybox {
     float: left;
-    border-color: black;
+    border: 2px solid black;
 }
 
 .pricebox {
-    border-color: black;
+    border: 0px solid black;
+    float: left;
+}
+
+.descbox {
+    float: left;
 }
