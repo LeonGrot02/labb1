@@ -24,7 +24,7 @@ nav {
 }
 
 article {
-    max-width: 960px;
+    max-width: 980px;
 }
 
 table {
@@ -93,13 +93,6 @@ footer {
     bottom: 0px;
     position: absolute;
 }
-
-.navButton  {
-    float: left;
-    background-color: white;
-}
-
-
 
 .maps {
     /*eeeeehhhhhh, why empty?*/
