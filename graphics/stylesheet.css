@@ -167,11 +167,14 @@ footer {
     width: 80%;
     height: 320px;
     float: left;
+    margin-bottom: 50px;
+    margin-right: 48px;
 }
 
 .propertybox {
     float: left;
     border: 2px solid black;
+    max-width: 140px;
 }
 
 .pricebox {
@@ -180,5 +183,8 @@ footer {
 }
 
 .descbox {
+    border: 2px solid black;
     float: left;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
