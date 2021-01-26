@@ -55,7 +55,7 @@ a:hover {
 }
 
 /*Kod hämtad från https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml5_aside2 */
-aside {
+.cwaside {
     width: 39%;
     float: left;
     font-style: italic;
@@ -102,8 +102,7 @@ footer {
 
 
 .maps {
-    
-
+    /*eeeeehhhhhh, why empty?*/
 }
 
 .sort {
@@ -126,29 +125,20 @@ footer {
     justify-content: space-between;
 }
 
-.memberL {
-    color: white;
-    width: 20%;
-    height: 300px;
-    background: black;
-    box-shadow: 3px 3px 5px rgba(111,111,111,0.3);
-}
-
 .member {
     color: white;
     width: 20%;
     height: 300px;
-    margin-left: 20%;
     background: black;
     box-shadow: 3px 3px 5px rgba(111,111,111,0.3);
 }
 
-.memberL a, .member a {
+.member a {
     color: white;
     border: 5px solid black;
 }
 
-.memberL a:hover, .member a:hover {
+.member a:hover {
     color: black;
     border: 5px solid white;
     background: white;
@@ -156,11 +146,12 @@ footer {
 
 .member p, .memberL p {
     font-size: 12px;
+    margin-left: 8px;
 }
 
-.member img, .memberL img {
-    height: 196px;
-    width: 196px;
+.member img {
+    height: 192px;
+    width: auto;
 }
 
 .overheadImg {
