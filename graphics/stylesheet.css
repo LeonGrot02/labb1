@@ -116,7 +116,13 @@ footer {
 .object {
     border: 2px solid black;
     width: 60%;
-    background-color: red;
+    height: 40%;
+    float: left;
+}
+
+.object:hover {
+    border: 2px solid gray;
+    width: 60%;
     float: left;
 }
 
