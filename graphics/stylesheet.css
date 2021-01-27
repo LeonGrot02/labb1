@@ -48,7 +48,7 @@ th, td {
     transition: border ease-in-out 0.3s, background ease-in-out 0.3s, color ease-in-out 0.3s;
 }
 
-a:hover {
+.navLink:hover {
     border: 5px solid black; 
     background: black;
     color: white;
