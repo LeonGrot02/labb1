@@ -54,16 +54,20 @@ a:hover {
     color: white;
 }
 
+.aimage {
+    padding-left: 0px;
+}
 /*Kod hämtad från https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml5_aside2 */
-aside {
-    width: 39%;
+.cwaside {
+    width: 25%;
     float: left;
     font-style: italic;
-    background-color: lightgray;
-    margin-left: 5px;
+    
+    
 }
 .ad {
     width: 100%;
+    height: 100%;
 
 }
 
@@ -109,7 +113,16 @@ footer {
 .object {
     border: 2px solid black;
     width: 60%;
-    background-color: red;
+    height: 40%;
+    float: left;
+    margin-right: 50px;
+    padding-left: 10px;
+    
+}
+
+.object:hover {
+    border: 2px solid gray;
+    width: 60%;
     float: left;
 }
 
@@ -151,13 +164,34 @@ footer {
     width: 80%;
     height: 320px;
     float: left;
+    margin-bottom: 50px;
+    margin-right: 48px;
 }
 
 .propertybox {
     float: left;
-    border-color: black;
+    border: 2px solid black;
+    max-width: 140px;
 }
 
 .pricebox {
-    border-color: black;
+    border: 0px solid black;
+    float: left;
+}
+
+.descbox {
+    border: 2px solid black;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.object-image {
+    padding-left: 0px;
+
 }
