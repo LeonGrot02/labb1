@@ -54,16 +54,20 @@ a:hover {
     color: white;
 }
 
+.aimage {
+    padding-left: 0px;
+}
 /*Kod hämtad från https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml5_aside2 */
 .cwaside {
-    width: 39%;
+    width: 25%;
     float: left;
     font-style: italic;
-    background-color: lightgray;
-    margin-left: 5px;
+    
+    
 }
 .ad {
     width: 100%;
+    height: 100%;
 
 }
 
@@ -118,6 +122,9 @@ footer {
     width: 60%;
     height: 40%;
     float: left;
+    margin-right: 50px;
+    padding-left: 10px;
+    
 }
 
 .object:hover {
@@ -184,4 +191,14 @@ footer {
     float: left;
     margin-top: 30px;
     margin-bottom: 100px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.object-image {
+    padding-left: 0px;
+
 }
