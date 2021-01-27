@@ -41,7 +41,7 @@ th, td {
     color: black;
 }
 
-a {
+.navLink {
     color: black;
     text-decoration: dotted underline;
     border: 5px solid white; 
