@@ -28,6 +28,14 @@ article {
     max-width: 980px;
 }
 
+section {
+    float: left;
+}
+
+aside {
+    float: right;
+}
+
 table {
     text-align: center;
 }
@@ -76,7 +84,7 @@ h3 a:hover {
 /*Kod hämtad från https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml5_aside2 */
 .cwaside {
     width: 25%;
-    float: left;
+    float: right;
     font-style: italic;
     margin-left: 10px;
     
@@ -107,17 +115,17 @@ td a:hover {
 }
 
 footer {
+    clear: both;
+    height: 15px;
     width: 980px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.maps {
-    
-}
-
 .sort {
 
+    float: none;
+    clear: both;
     border: 2px solid black;
     margin-top: 15px;
     margin-bottom: 15px;
