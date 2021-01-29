@@ -110,12 +110,10 @@ footer {
     width: 980px;
     margin-left: auto;
     margin-right: auto;
-    bottom: 0px;
-    position: absolute;
 }
 
 .maps {
-    /*eeeeehhhhhh, why empty?*/
+    
 }
 
 .sort {
