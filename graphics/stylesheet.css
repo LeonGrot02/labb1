@@ -66,6 +66,28 @@ h3 a:hover {
     text-decoration: none;
 }
 
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    border: 5px solid white; 
+    transition: border ease-in-out 0.3s, background ease-in-out 0.3s, color ease-in-out 0.3s;
+}
+
+ul li a:hover {
+    border: 5px solid black; 
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+
 .navLink {
     color: black;
     text-decoration: dotted underline;
