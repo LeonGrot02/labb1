@@ -257,6 +257,7 @@ footer {
 }
 
 .overheadImg {
+    /*Bilderna på produktsidan*/
     width: 80%;
     height: 320px;
     float: left;
@@ -265,17 +266,20 @@ footer {
 }
 
 .propertybox {
+    /*Den lilla beskrivningslådan till objekten på produktsidan*/
     float: left;
     border: 2px solid black;
     max-width: 150px;
 }
 
 .pricebox {
+    /*Prislådan som ligger i den lilla beskrivningslådan*/
     border: 0px solid black;
     float: left;
 }
 
 .descbox {
+    /*Den stora beskrivningslådan på produktsidan*/
     border: 2px solid black;
     float: left;
     margin-top: 30px;
