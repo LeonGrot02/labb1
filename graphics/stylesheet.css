@@ -67,11 +67,13 @@ h3 a:hover {
 }
 
 ul {
-    display: flex;
+    position: relative;
+    display: inline-block;
 }
 
 ul li {
     list-style: none;
+    float: left;
 }
 
 ul li a {
@@ -86,6 +88,22 @@ ul li a:hover {
     text-decoration: none;
     background: black;
     color: white;
+}
+
+/*Dropdown boxar gjorda med hjälp av kod från W3Schools https://www.w3schools.com/howto/howto_css_dropdown.asp */
+.dropBox {
+    /*placeholder class*/
+}
+
+.hiddenBox {
+    margin-top: 7px;
+    display: none;
+    z-index: 1;
+    position: absolute;
+}
+
+.dropBox:hover .hiddenBox {
+    display: block;
 }
 
 .navLink {
