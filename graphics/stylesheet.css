@@ -102,6 +102,19 @@ ul li a:hover {
     position: absolute;
 }
 
+.hiddenBox a {
+    margin-top: -3px;
+    color: black;
+    padding: 3px 4px;
+    text-decoration: none;
+    display: block;
+    text-decoration: dotted underline;
+}
+
+.hiddenBox a:hover {
+    text-decoration: dotted underline;
+}
+
 .dropBox:hover .hiddenBox {
     display: block;
 }
