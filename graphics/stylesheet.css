@@ -262,14 +262,14 @@ footer {
     height: 320px;
     float: left;
     margin-bottom: 50px;
-    margin-right: 38px;
+    margin-right: 2%;
 }
 
 .propertybox {
     /*Den lilla beskrivningslådan till objekten på produktsidan*/
     float: left;
     border: 2px solid black;
-    max-width: 150px;
+    width: 15%;
 }
 
 .pricebox {
@@ -284,6 +284,7 @@ footer {
     float: left;
     margin-top: 30px;
     margin-bottom: 200px;
+    width: 97%;
 }
 
 .logo {
